@@ -162,7 +162,9 @@ export const Footer = () => (
   <footer className="bg-gray-900 text-white p-6 mt-16">
     <div className="container mx-auto flex justify-between">
       <div className="space-y-2">
-        <p className="font-bold">Exodus Clone</p>
+        <div className="font-bold">
+          <img src={Logo} alt="logo" />
+        </div>
         <p>© 2024 Crypto Wallet</p>
       </div>
       <div className="space-x-4">
