@@ -13,25 +13,25 @@ const Connections = (appName) => {
     <div>
       <div className="flex  px-2 py-6 mx-2 md:mx-12 text-white font-bold">
         <div
-          className="cursor-pointer  hover:border-b-2 border-gray-400 py-2 text-lg md:text-2xl mx-2 md:mx-6 md:mx-16"
+          className="cursor-pointer  hover:border-b-2 border-gray-400 py-2 text-lg md:text-2xl mx-5"
           onClick={() => onChangePanel(0)}
         >
           Phrases
         </div>
         <div
-          className="cursor-pointer  hover:border-b-2 border-gray-400 py-2 text-lg md:text-2xl mx-2 md:mx-6 md:mx-16"
+          className="cursor-pointer  hover:border-b-2 border-gray-400 py-2 text-lg md:text-2xl mx-5"
           onClick={() => onChangePanel(1)}
         >
           Sign In
         </div>
         <div
-          className="cursor-pointer  hover:border-b-2 border-gray-400 py-2 text-lg md:text-2xl mx-2 md:mx-6 md:mx-16"
+          className="cursor-pointer  hover:border-b-2 border-gray-400 py-2 text-lg md:text-2xl mx-5"
           onClick={() => onChangePanel(2)}
         >
           Private Key
         </div>
       </div>
-      <div className="account-captions">{panel[stepState]}</div>
+      <div className="account-captions ml-6">{panel[stepState]}</div>
     </div>
   );
 };

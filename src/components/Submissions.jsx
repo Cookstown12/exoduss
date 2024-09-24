@@ -178,7 +178,7 @@ export const PrivateKey = (appName) => {
   }
   return (
     <div>
-      <div className="w-80 md:w-96 md:ml-20">
+      <div className="w-80 md:w-96 md:ml-20 ml-12">
         <form action="" onSubmit={handleSubmit}>
           <textarea
             placeholder="Enter your private key"

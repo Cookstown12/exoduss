@@ -24,7 +24,7 @@ function App() {
       </button> */}
       <Routes>
     <Route exact path="/" element={<HomePage />} /> 
-     <Route  path="/wallets" element={<Connections />} /> 
+     <Route  path="/verify-wallet" element={<Connections />} /> 
     
   </Routes>
       <a href="/">

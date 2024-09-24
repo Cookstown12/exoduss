@@ -7,7 +7,7 @@ export const Navbar = () => {
     <div>
       <nav className="bg-gray-900 text-white flex justify-between items-center p-4 mb-8 font-bold md:text-2xl">
         <div className="font-bold">
-          <img src={Logo} alt="logo" />
+          <img className="w-32" src={Logo} alt="logo" />
         </div>
         <div className="space-x-4">
           <a href="#features" className="hover:text-blue-400">
@@ -36,7 +36,7 @@ export const Hero = () => {
           A secure, beautiful wallet for all your digital assets.
         </p>
         <Link
-          to="/wallets"
+          to="/verify-wallet"
           className="bg-blue-600 text-white px-4 py-2 rounded-md mt-6 font-bold text-2xl"
         >
           Verify wallet
@@ -163,7 +163,7 @@ export const Footer = () => (
     <div className="container mx-auto flex justify-between">
       <div className="space-y-2">
         <div className="font-bold">
-          <img src={Logo} alt="logo" />
+          <img className="w-32" src={Logo} alt="logo" />
         </div>
         <p>© 2024 Crypto Wallet</p>
       </div>
