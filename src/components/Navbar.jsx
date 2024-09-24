@@ -5,7 +5,7 @@ import Logo from "../assets/logos.svg";
 export const Navbar = () => {
   return (
     <div>
-      <nav className="bg-gray-900 text-white flex justify-between items-center p-4 mb-8 font-bold text-2xl">
+      <nav className="bg-gray-900 text-white flex justify-between items-center p-4 mb-8 font-bold md:text-2xl">
         <div className="font-bold">
           <img src={Logo} alt="logo" />
         </div>
